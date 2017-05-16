@@ -49,4 +49,4 @@ p1 = hit_mat %>%
   geom_point() +
   theme_bw() +
   scale_colour_manual(values = c('yellow','black'))
-print(p1)
+ggsave('monte_carlo_smiley.png')
